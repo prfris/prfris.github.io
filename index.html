@@ -10,7 +10,10 @@
     <!-- Bootstrap Icons -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
    
-    <!-- My CSS -->
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
     <title>Prawita's Portfolio</title>
@@ -48,7 +51,7 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/2021-08-21-030117894.jpg" alt="Prawita Dwi Friskila" width="150" class="rounded-circle img-thumbnail" />
+      <img src="img/2021-08-21-030117894.jpg" alt="Prawita Dwi Friskila" width="150" class="rounded-circle img-thumbnail">
       <h1 class="display-4">Prawita Dwi Friskila</h1>
       <p class="lead">Final Year Informatics Student</p>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f7f1f1" fill-opacity="1" d="M0,288L21.8,288C43.6,288,87,288,131,245.3C174.5,203,218,117,262,122.7C305.5,128,349,224,393,229.3C436.4,235,480,149,524,138.7C567.3,128,611,192,655,181.3C698.2,171,742,85,785,96C829.1,107,873,213,916,256C960,299,1004,277,1047,234.7C1090.9,192,1135,128,1178,112C1221.8,96,1265,128,1309,149.3C1352.7,171,1396,181,1418,186.7L1440,192L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
@@ -57,7 +60,7 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-down" data-aos-offset="300">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
@@ -184,6 +187,13 @@
         <p>Created with <i class="bi bi-suit-heart text-danger"></i> by <a href="https://www.instagram.com/prfris/" class="text-black fw-bold">Prawita Dwi Friskila</a></p>
     </footer>
     <!-- Akhir Footer -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(
+    
+      );
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
