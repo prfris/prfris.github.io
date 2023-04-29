@@ -1,0 +1,16 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #f2d1d6;
+}
+
+#about {
+  background-color: #f7f1f1;
+}
+
+#projects {
+  background-color: #f9e9ec;
+}
+
+section {
+  padding-top: 5rem;
+}
