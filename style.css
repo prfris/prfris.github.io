@@ -1,6 +1,98 @@
+@font-face {
+  font-family: "Agraham";
+  src: url(font/Agraham.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Aurallia";
+  src: url(font/Aurallia.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "BubbleBoop";
+  src: url(font/BubbleBoop.ttf) format("truetype");
+}
+
+font-face {
+  font-family: "CapucheTrial";
+  src: url(font/CapucheTrial.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "ClaireHand";
+  src: url(font/ClaireHand.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "FavoriteNotification";
+  src: url(font/FavoriteNotification.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gyahegi";
+  src: url(font/Gyahegi.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Matiott";
+  src: url(font/Matiott.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MemphisRiver";
+  src: url(font/MemphisRiver.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Mongek";
+  src: url(font/Mongek.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sirukota";
+  src: url(font/Sirukota.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Soage";
+  src: url(font/Soage.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Timeless";
+  src: url(font/Timeless.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Wes";
+  src: url(font/Wes.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Wonderland";
+  src: url(font/Wonderland.otf) format("opentype");
+}
+
+.navbar {
+  font-family: "Timeless";
+  padding-right: 2rem;
+  background-color: #f2d1d6;
+}
+
 .jumbotron {
   padding-top: 6rem;
   background-color: #f2d1d6;
+}
+
+h1 {
+  font-size: 8em;
+  font-family: "Timeless";
+  font-weight: normal;
+}
+
+p {
+  font-size: 2em;
+  font-family: "Timeless";
 }
 
 #about {
